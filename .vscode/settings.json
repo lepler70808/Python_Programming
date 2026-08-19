@@ -1,7 +1,8 @@
 {
-    "[python]": {
+  "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnSave": true
-  }
-
+  },
+  "code-runner.saveFileBeforeRun": true,
+  "terminal.intergrated.fontSize" : 35,
 }
