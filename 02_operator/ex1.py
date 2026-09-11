@@ -12,6 +12,9 @@ print(a % b)
 print(a // b)
 print(a**b)
 
+# 10 / 3 = 3
+print(10 / 2)
+
 # 복합 대입 연산자
 a += 4
 print(a)
