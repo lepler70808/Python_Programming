@@ -7,5 +7,5 @@ print("__init__")
 VERSION = "1.0.0"
 
 # 3. 패키지 re-export
-# from my_package.mymath import add  # 절대 import
+# from mypackage.mymath import add  # 절대 import
 from .mymath import add  # 상대 import
