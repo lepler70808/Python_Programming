@@ -9,8 +9,8 @@
 #  - from 패키지명.모듈명 import 함수명 (from 가져올 위치 import 가져올 대상)
 # ===========================================================
 
-from my_package import mymath
-from my_package.mymath import PI, add
+from mypackage import mymath
+from mypackage.mymath import PI, add
 
 print(mymath.PI)
 print(mymath.add(10, 20))
@@ -22,7 +22,7 @@ print(add(30, 40))
 # 2. __init__에서 re-export한 것 사용하기
 # ===========================================================
 
-import my_package as m
+import mypackage as m
 
 print(m.add(100, 200))
 
